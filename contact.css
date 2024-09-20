@@ -1,0 +1,386 @@
+.contacthero {
+     height:657px;
+    flex-shrink: 0;
+    width: 100%;
+  }  .contacthero img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+  }
+  .contacthero svg{
+    position: absolute;
+
+    left: -18%;
+  
+  }
+  .contact-hero-text {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    margin-left: 120px;
+    z-index: 20;
+    color: white;
+  }
+  .contact-hero-text h1 {
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    line-height: 60px;
+    margin-bottom: 25px;
+  }
+  .contact-hero-text p {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+   
+  }
+  .contactdetails{
+    padding: 5rem 5rem;
+  }
+  .contactdetailscontent{
+    border-radius: 10px;
+background: #FFF;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 3rem 4rem;
+  }
+  .contactdetailscontent p{
+    color: #3A321D;
+    font-family: "Montserrat", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+  }
+  .formandadr{
+    overflow: hidden;
+    padding-bottom: 2rem;
+
+   margin: 2rem 5rem 2rem 5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+
+  }
+  .cantactdetailsfrorm{
+     border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5rem 4rem;
+            display: flex;
+        position: relative;
+        overflow: hidden;
+     justify-content: space-between;
+  } 
+  .cantactdetailsfrorm svg{
+    position: absolute;
+    width: 100%; /* Take up full width of the container */
+    bottom: -3%;
+    height: auto;
+    left: 0;
+     z-index: -1;
+      }
+  .cantactdetailsfrorm h2{
+    margin-bottom: 120px;
+    color: #3A321D;
+font-family: Montserrat;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 125% */
+  }
+ .contactdetailsformcol{
+    width: 48%;
+  }
+
+  .contactdetailsformcol form{
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     padding: 2rem 2rem;
+     overflow: hidden;
+       }
+  .contactdetailsformcol form input{
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    border:1px solid #ccc;
+    width: 100%;
+    border-radius: 5px;
+ font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.7px;
+padding: 0rem 2rem;  
+margin-bottom: 30px;
+height: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.contactdetailsformcol form textarea{
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    border:1px solid #ccc;
+    width: 100%;
+    border-radius: 5px;
+ font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.7px;
+padding: 0.8rem 2rem;  
+margin-bottom: 30px;
+height: 119px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+  form input::placeholder{
+    color: #3A321D;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+font-style: normal;
+font-weight: 700;
+  }
+  form textarea::placeholder{
+    color: #3A321D;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+font-style: normal;
+font-weight: 700;
+  }
+  .cantactdetailsfrorm .colleft p{
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 20px;
+  }
+  .cantactdetailsfrorm form p{
+    color: #3A321D;
+    font-family: "Montserrat", sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  .formbtn{
+    border-radius: 10px;
+    background: var(--Linear, linear-gradient(90deg, #001AAF 0%, #871EB6 100%));
+    width: 162px;
+    height: 45px;
+    display: flex;
+  flex-direction: column;
+justify-content: center;
+color: #FFF;
+align-items: center;
+outline: none;
+border: none;
+font-family: "Montserrat", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+margin-top: 20px;
+  }
+.formaddress
+{
+    display: flex;
+    justify-content:space-between;
+    padding: 4rem 3rem 4rem 3rem;
+    border-radius: 20px;
+background: var(--Linear, linear-gradient(90deg, #001AAF 0%, #871EB6 100%));
+margin: 4rem 3rem 2rem 3rem;
+width: 1088px;
+height: 362px;
+}
+.formaddress h2{
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px;
+margin-bottom: 30px;
+}
+.formaddresscol1{
+    width: 45%;
+    padding-right: 3rem;
+    border-right: 1px solid #fff;
+}
+.formaddresscol2 {
+    width: 46%;
+    text-align: left;    
+}
+.formaddresscol1 p i{
+    margin-right: 15px;
+}
+.formaddresscol2 p{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; 
+}
+.formaddresscol1 p{
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 40px;
+}
+.footercocialicon{
+    display: flex;
+    gap: 80px;
+    margin-top: 25px;
+}
+.footercocialicon i{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 300;
+}
+.fa-x{
+    font-family:sans-serif;
+}
+.fa-x::before{
+   	content:"𝕏";
+	font-size:36px;
+    color: #FFF;
+}
+.footerbootp{
+    color: #3A321D;
+    font-family: "Montserrat", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+margin: 1rem 4rem;
+}
+@media screen and (max-width:1024px) 
+{
+    .formandadr{
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .contacthero{
+        margin-top: 100px;
+         height: 85vh;
+    }
+    .contacthero svg{
+        left: 0;
+    }
+    .cantactdetailsfrorm{
+        margin-top: 0rem;
+        flex-direction: column;
+    }
+    .contactdetailsformcol {
+        width: 100%;
+    }
+    .cantactdetailsfrorm .colleft p{
+        color: #3A321D;
+        margin-bottom: 1rem;
+    }
+    .cantactdetailsfrorm h2{
+        margin-bottom: 2rem;
+    }
+    .formaddress{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .formaddresscol1{
+        width: 100%;
+        border-right: none;
+        margin-bottom: 25px;
+    }
+    .formaddresscol2{
+        width: 100%;
+    }
+    .formaddresscol1 h2{
+        text-align: center;
+    }
+    .formaddresscol1 p{
+        text-align: center;
+
+    }
+    .formaddresscol2 h2{
+        text-align: center;
+    }
+    .formaddresscol2 p{
+        text-align: center;
+    }
+    .footercocialicon{
+        justify-content: center;
+    }
+    .contactdetailscontent p{
+        line-height: 35px;
+    }
+ footer{
+    overflow: hidden;
+ }   
+    
+}
+@media screen and (max-width:800px) {
+    .contactdetails{
+        padding: 1rem 0rem;
+    }
+    .contact-hero-text h1{
+        width: auto;
+        font-size: 28px;
+        line-height: 15px;
+    }
+    .contact-hero-text{
+        top: 25%;
+    margin-left: 92px;
+    }
+    .contacthero{
+        height: 50vh;
+    }
+    .contactdetails{
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .contactdetailscontent{
+        padding: 2rem 2rem;
+    }
+    .cantactdetailsfrorm{
+        padding: 2rem 1rem;
+    }
+    .cantactdetailsfrorm h2{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .contactdetailsformcol form{
+        padding: 2rem 1rem;
+    }
+    .formaddress{
+        width: 95%;
+        margin: 2rem auto;
+        padding: 2rem 1rem;
+    }
+    .formaddresscol1{
+        padding-right: 0rem;
+    }
+    .footercocialicon{
+        gap: 25px;
+    }
+    .footerbootp{
+        width: 95%;
+    margin: auto;
+    text-align: center;
+    }
+    .cantactdetailsfrorm svg {
+        bottom: 0;
+    }
+
+}
